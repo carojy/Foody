@@ -1,5 +1,6 @@
 # Foody
 EN COURS DE CONSTRUCTION 
 ==> Site de recettes de cuisines végétariennes collaboratif.
-Une fois fini, l'idée est que chacun puisse se créer un compte et soumettre à validation une recette avec une image de celle-ci. 
+MVP : Plateforme fonctionnelle où l'on peut envoyer recette + image par formulaire en étant connecté à un compte utilisateur
+
 
