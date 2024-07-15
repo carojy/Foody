@@ -1,8 +1,8 @@
 
 <?php
+session_start();
 require_once(__DIR__.'/variables.php');
 require_once(__DIR__ . '/functions.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -22,8 +22,9 @@ require_once(__DIR__ . '/functions.php');
     <div class = "affichage-recettes">
         
         <?php require_once(__DIR__ . '/header.php');?>
-    
         <h1>Toutes les recettes</h1>
+
+        <?php require_once(__DIR__ .'/login.php');?>
             
         <?php  foreach (getRecipes($recipes) as $status):?>
             <article>

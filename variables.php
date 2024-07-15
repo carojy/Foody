@@ -5,18 +5,21 @@ $users = [
         'email' => 'mickael.andrieu@exemple.com',
         'pseudo' => 'Mika',
         'age' => 34,
+        'password'=>'bonjour'
     ],
     [
         'full_name' => 'Mathieu Nebra',
         'email' => 'mathieu.nebra@exemple.com',
         'pseudo' => 'Mat',
         'age' => 34,
+        'password'=>'test'
     ],
     [
         'full_name' => 'Laurène Castor',
         'email' => 'laurene.castor@exemple.com',
         'pseudo' => 'Lolo',
         'age' => 28,
+        'password'=>'lalat'
     ],
 ];
 

@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    require_once(__DIR__ . '/header.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,19 +17,19 @@
 <body class="d-flex flex-column min-vh-100">
     <div class="container">
         
-    <?php require_once(__DIR__ . '/header.php');?>
+
 
         <h1>Contacte moi</h1>
 
         <form action="submit_contact.php" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" aria-describedby="email-help">
-                <div id="email-help" class="form-text">Je ne revends pas encore les email.</div>
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="email-help" placeholder="Ton email">
+                <div id="email-help" class="form-text">Je ne revends pas encore les email &#x1F609;.</div>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Ton petit mot</label>
-                <textarea class="form-control" placeholder="Exprime toi" id="message" name="message"></textarea>
+                <textarea class="form-control" placeholder="Dis moi tout" id="message" name="message"></textarea>
             </div>
             <div class="mb-3">
                 <label for="document" class="form-label">Pièce jointe</label>

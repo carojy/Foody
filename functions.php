@@ -33,6 +33,12 @@ function getRecipes(array $recipes):array {
 }
 
 
+function redirectToUrl(string $url):never{
+    header("Location:{$url}"); // header("Location: {$url} indique au navigateur de charger une nouvelle page spécifiée par $url
+    exit(); // arrête reste du code PHP
+}
+
+
 
 
 
